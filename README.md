@@ -13,13 +13,17 @@ The code in the repo should run as-is out of the box but how the parameters of t
 # Thrusters
 
 The drone has left and right thrusters, these can be manipulated separately, however for best results their parameters should be identical. Each thruster also has a rigid body with a defined mass (0.3) and this rigid body is attached to the parent drone body using a 2D Fixed Joint.
+
 ![alt text](https://cdn-images-1.medium.com/max/800/1*9xIpEFJhUD_xvHlHsjfBVg.png)
+
 The main Thruster.cs parameters to configure would be the thrust coefficient, maximum RPM, and the spinup rate.
 
 # Quadcopter
 
 The quadcopter also had a rigid body with a defined mass (1) along with a simple collider to prevent it from passing through the surface platform.
+
 ![alt text](https://cdn-images-1.medium.com/max/800/1*oW0ooqAlULV2XLiezIKKQg.png)
+
 The rotors and rotor count are set in the Quadcopter.cs script and the target position and PID control coefficients in the FlightControl.cs script.
 
 ## Technologies
