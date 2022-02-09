@@ -37,13 +37,17 @@ Project is created with:
 When we run the scene the quadcopter lifts off the ground, moves towards the specified altitude, and settles there.
 
 ![alt text](https://cdn-images-1.medium.com/max/800/1*1KdD_3Bd491HiFm0docCoA.gif)
+
 The P thrust values can be modified to change how quickly the drone reaches the desired high.
 
 ![alt text](https://cdn-images-1.medium.com/max/800/1*vXg3tDCL6xiAZrF-p273_w.gif)
+
 The D thrust value dictates how smooth our trajectory is and can be used to minimize overshooting at a cost of slower convergence.
 
 ![alt text](https://cdn-images-1.medium.com/max/800/1*R50RA8RYwKaHKQJ9IVoBkA.gif)
+
 The I thrust value allows the system to overcome unforeseen disturbances in the environment and have a smoother recovery.
 
 ![alt text](https://cdn-images-1.medium.com/max/800/1*V7BhEO7Mnhq16XsBemDNug.gif)
+
 The roll PID coefficients provide the same role but for pitch.
