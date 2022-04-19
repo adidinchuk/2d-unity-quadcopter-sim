@@ -10,6 +10,8 @@
 
 The code in the repo should run as-is out of the box but how the parameters of the simulation can be manipulated are covered below.
 
+Read my related blog post [here](https://theappliedarchitect.com/learning-2d-rotorcopter-mechanics-and-control-with-unity/).
+
 # Thrusters
 
 The drone has left and right thrusters, these can be manipulated separately, however for best results their parameters should be identical. Each thruster also has a rigid body with a defined mass (0.3) and this rigid body is attached to the parent drone body using a 2D Fixed Joint.
